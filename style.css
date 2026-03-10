@@ -1,0 +1,18 @@
+#introducao {
+  color: rgb(183, 179, 156);
+}
+.codigo {
+  color: rgb(144, 167, 159);
+}
+.designe {
+  color: rgb(102, 135, 135);
+}
+.azul {
+  color: rgb(49, 49, 105);
+}
+.grande {
+  font-size: 46px;
+}
+.underline {
+  text-decoration: underline;
+}
