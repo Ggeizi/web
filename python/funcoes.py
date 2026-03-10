@@ -12,11 +12,24 @@ b = int(input("Digite o segundo número: "))
 def soma(a, b):
     return a + b
 
-# def potencia(a, b):
-#    return a ** b
+def potencia(a, b):
+   return a ** b
 
 resultado = soma(a, b)
-print(f"O resultado da soma de {a} com {b} é de: {resultado}")
+print(f"O resultado da soma de {a} com {b} é de: {resultado}\n")
 
-#resultado = potencia(a, b)
-#print(f"O resultado da potência de {a} com {b} é de: {resultado}")
+resultado = potencia(a, b)
+print(f"O resultado da potência de {a} com {b} é de: {resultado}\n")
+
+
+
+idade = int(input("Digite a sua idade: "))
+
+def Verificar_idade(idade):
+    if idade >= 18:
+       return "Acesso livre\n"
+
+    else:
+        return "Acesso negado\n"
+
+print(Verificar_idade(idade))
